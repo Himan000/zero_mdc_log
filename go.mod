@@ -1,4 +1,4 @@
-module gitee.com/aiyuangong_group/zero_mdc_log
+module gitee.com/Himan000/zero_mdc_log
 
 go 1.18
 

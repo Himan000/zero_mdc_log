@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"gitee.com/aiyuangong_group/zero_mdc_log/config"
+	"gitee.com/Himan000/zero_mdc_log/config"
 
-	over "gitee.com/aiyuangong_group/zero_mdc_log"
+	over "gitee.com/Himan000/zero_mdc_log"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"

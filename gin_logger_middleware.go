@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"time"
 
-	config_pack "gitee.com/aiyuangong_group/zero_mdc_log/config"
+	config_pack "gitee.com/Himan000/zero_mdc_log/config"
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
