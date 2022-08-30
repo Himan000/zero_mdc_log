@@ -115,8 +115,12 @@ func (o *Overlog) Fatalf(format string, args ...interface{}) {
 	o.log.Fatal().Msg(message(format, args...))
 }
 
-func (o *Overlog) Panic(args ...interface{}) {
+func (o *Overlog) OPanic(args ...interface{}) {
 	o.log.Panic().Msg(message("", args...))
+}
+
+func (o *Overlog) Panic() *zerolog.Event {
+	return o.log.Panic()
 }
 
 func (o *Overlog) Panicf(format string, args ...interface{}) {

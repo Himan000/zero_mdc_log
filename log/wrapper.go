@@ -77,3 +77,7 @@ func Debug() *zerolog.Event {
 func Error() *zerolog.Event {
 	return over.Log().Error()
 }
+
+func Panic() *zerolog.Event {
+	return over.Log().Panic()
+}
