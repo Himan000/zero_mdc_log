@@ -17,6 +17,9 @@ import (
 
 const TRACE_ID = "traceID"
 
+/*
+	初始时zero，包括日志文件相关属性、格式等。
+*/
 func Init() {
 	//项目配置
 	c := config.New(viper.GetViper())
